@@ -33,12 +33,10 @@ class Directory extends Component {
           size: "large",
           id: 4,
           linkUrl: "shop/womens",
-          size: "large",
         },
         {
           title: "mens",
           imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
-          size: "large",
           id: 5,
           linkUrl: "shop/mens",
           size: "large",
