@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 
 import FormInput from "../form-input/form-input.component";
 import CustomButton from "../custom-button/custom-button.component";
@@ -48,11 +48,11 @@ class SignUp extends Component {
     }
   };
 
-  handleChange = event => {
+  handleChange = (event) => {
     const { name, value } = event.target;
 
-    this.setState({[name]: value})
-  }
+    this.setState({ [name]: value });
+  };
 
   render() {
     const { displayName, email, password, confirmPassword } = this.state;
