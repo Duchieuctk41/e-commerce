@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {connet, connect } from "react-redux";
+import { connect } from "react-redux";
 
 import { auth } from "../../firebase/firebase.ultis";
 
@@ -34,7 +34,7 @@ const Header = ({ currentUser }) => (
 );
 
 const mapStateToProps = (state) => ({
-  currentUser: state.user.currentUser
-})
+  currentUser: state.user.currentUser,
+});
 
 export default connect(mapStateToProps)(Header);
