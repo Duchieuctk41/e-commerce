@@ -1,4 +1,4 @@
-Xây dựng trang web bán q
+Xây dựng trang web bán quần áo
 
 [Demo](https://hieuecommerce.netlify.app/)
 
